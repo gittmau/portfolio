@@ -1,0 +1,190 @@
+@media(min-width:410px){
+
+	.conteudoServicos > img{width:20%;}
+
+    .pagesmake{width:360px}
+
+    #tituloChamada1 h1{font-size:2rem;}
+
+    #sectionSobre{margin: 100px auto;}
+
+    #fotoSobre{width:280px;height:350px}
+}
+
+
+@media(min-width:500px){
+   
+   .pagesmake{width:450px}
+
+}
+
+
+@media(min-width:600px){
+
+    .pagesmake{width:550px}
+
+
+}
+
+
+@media(min-width:700px){
+
+
+    #fotoCapa{width:200px;height:250px}
+
+    #servicos{width:90%;margin:0 auto;display: flex;justify-content:space-evenly;align-items: center;flex-wrap: wrap;margin-bottom:50px}
+
+    .conteudoServicos{width:45%;gap: 5px;padding:25px;height: 250px}
+
+    .conteudoServicos:hover{margin-top: -1px;transition:1s}
+
+    .conteudoServicos:hover img{width:25%;transition:1s}
+
+    #tituloChamada1 p{width: 80%;margin: auto;}
+
+    footer{height:500px;margin-top:150px}
+
+    #conteudoFooter{width:90%;display: flex;justify-content:center;align-items:center;margin: auto;gap:5px}
+
+    .boxFooter{width:200px;text-align: center;background:rgba(0, 0, 0, 0.3);border-bottom-left-radius: 25px;}
+
+    .boxFooter > a,img{width:20%;}
+
+    .pagesmake{width:650px;}
+
+    iframe{height:500px;margin: auto;}
+
+
+    /*Seção sobre-----------------------*/
+
+    #fotoSobre{width:220px;height:220px}
+
+    #sectionSobre{width:90%;margin: 50px auto;display: flex;}
+
+    .textoSobre{text-align:left;}
+    
+
+
+}
+
+
+
+
+@media(min-width:915px){
+
+	main{width: 95%;margin: auto}
+
+	#btnFechar{display: none}
+
+	#hamburguinho{display: none;}
+
+	#menu{transform: translateX(0%);}
+
+	#menu ul{background:transparent;position:relative;width:40%;height:70px;display: flex;align-items: center;margin-top: 0;float: right}
+
+    #menu li{list-style:none;color:#000;padding: 5px;font-family:'Work Sans', sans-serif;margin-top: 0;border:1px solid #ccc;margin-left: 15px;border-bottom-right-radius: 15px}
+
+    .pageAtual{background: #0e4d54;}
+
+    #menu li:hover{background:#0e4d54;color:#fff }
+
+    #capa,#filtro{height:500px}
+
+    #filtro{background: rgba(0, 0, 0, 0.8);}
+
+    #nomeCapa > h2{font-size: 2rem}
+
+    #tituloChamada1 h1{color: }
+
+    #tituloChamada1 p{padding: 10px;width:60%;}
+
+
+
+    /*Serviços-------------------*/        
+
+    .conteudoServicos > img{width:20%;}
+
+    .conteudoServicos > p{font-size:0.8rem;}
+
+    footer{height: 650px}
+
+    .boxFooter{width:250px;height:;line-height:55px}
+
+    .boxFooter > a,img{width:15%;}
+
+    #demoWork{width:90%;margin: auto;display: flex;justify-content:center;margin-bottom: 50px}
+
+
+    .pageLink{font-size: 1.2rem}
+
+    .pagesmake{width:30%;}
+
+    iframe{height:400px}
+
+    .divisaIframe{display: none}
+
+     /*Seção sobre-----------------------*/
+
+    #sectionSobre{width:85%;justify-content:space-evenly;align-items: center;margin: 100px auto;}
+
+    #fotoSobre{margin:0;}
+
+    .textoSobre{margin:0}
+
+
+
+    
+
+}
+
+
+@media(min-width:1200px){    
+
+    #menu ul{width:30%;}
+
+    .conteudoServicos{width:24%;gap: 5px;padding:25px}
+
+    #tituloChamada1 h1{font-size:2.5rem }
+    
+    #tituloChamada1 p{font-size: 1.3rem} 
+
+    footer{height: 400px}
+
+    .boxFooter{width:;}
+
+   .boxFooter > a,img{width:12%;}
+
+   #demoWork{width:85%;}
+
+   .pageLink{font-size:1.5rem}
+
+   .pagesmake{width:31%;}
+
+    /*Seção sobre-----------------------*/
+
+    #sectionSobre{width:50%;}
+
+    #fotoSobre{width:240px;height: 280px}
+}
+
+
+@media(min-width:1366px){
+
+    #menu ul{width:27%}
+
+   /* .pagesmake{width:1260px;}
+
+    iframe{width:100%;height:650px}*/
+}
+
+
+@media(min-width:1920px){
+      
+    body{width: 1920px;margin: auto;}
+    
+    #menu ul{width:19%}      
+
+    .boxFooter > a,img{width:7%;}
+
+    /* .pagesmake{width:1800px;}*/
+}
